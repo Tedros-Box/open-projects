@@ -1,0 +1,24 @@
+spring:
+  devtools:
+    restart:
+      trigger-file: reload
+    livereload:
+      enabled: false
+  jackson:
+    default-property-inclusion: NON_NULL
+server:
+  servlet:
+    context-path: @project.contextPath@
+project:
+  jwt:
+    signKey: WzROun12eUiDvko3UrJ74gNeJz2TWEWPMTh6DxyE8HWXIf4hETUrkM4IUGqqHq66PuVS
+    expirationMinutes: 1440
+logging:
+  level:
+    org.springframework.jndi: DEBUG
+    org.apache.openejb.client: DEBUG
+    javax.naming: DEBUG
+jndi:
+  environment:
+    java.naming.factory.initial: org.apache.openejb.client.RemoteInitialContextFactory
+    java.naming.provider.url: http://localhost:8081/tomee/ejb

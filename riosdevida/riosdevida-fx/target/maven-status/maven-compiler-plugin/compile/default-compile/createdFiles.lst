@@ -1,0 +1,14 @@
+uk\riosdevida\module\webcontent\model\WebRegionMV.class
+uk\riosdevida\module\webcontent\converter\ContentTypeConverter.class
+uk\riosdevida\start\TConstant.class
+uk\riosdevida\module\webcontent\model\WebElementMV.class
+uk\riosdevida\module\webcontent\model\WebMainContentMV.class
+uk\riosdevida\module\webcontent\setting\WebContentSetting$1.class
+uk\riosdevida\module\webcontent\WebSiteModule.class
+uk\riosdevida\module\webcontent\model\WebContentMV.class
+uk\riosdevida\start\AppStart.class
+uk\riosdevida\module\webcontent\model\WebLanguageMV.class
+uk\riosdevida\module\webcontent\setting\WebContentSetting.class
+uk\riosdevida\RDV_Key.class
+uk\riosdevida\module\webcontent\converter\ElementTypeConverter.class
+uk\riosdevida\module\webcontent\model\WebContentItemMV.class

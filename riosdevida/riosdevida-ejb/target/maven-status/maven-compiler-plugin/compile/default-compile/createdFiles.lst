@@ -1,0 +1,14 @@
+uk\riosdevida\server\ejb\controller\WebContentController.class
+uk\riosdevida\server\ejb\controller\WebElementController.class
+uk\riosdevida\server\ejb\controller\WebLanguageController.class
+uk\riosdevida\server\ejb\controller\WebMainPageController.class
+uk\riosdevida\server\cdi\eao\RdvEAO.class
+uk\riosdevida\server\ejb\controller\MainPageController.class
+uk\riosdevida\server\ejb\service\WebMainPageService.class
+uk\riosdevida\server\ejb\controller\LanguageController.class
+uk\riosdevida\server\cdi\bo\WebMainPageBO.class
+uk\riosdevida\server\cdi\eao\WebMainPageEAO.class
+uk\riosdevida\server\domain\DomainMsg.class
+uk\riosdevida\server\ejb\controller\ElementPageController.class
+uk\riosdevida\server\cdi\bo\RdvBO.class
+uk\riosdevida\server\ejb\service\RdvService.class

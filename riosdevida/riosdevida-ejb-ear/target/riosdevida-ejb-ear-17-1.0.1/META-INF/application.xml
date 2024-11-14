@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <description>Build a tedros application with all required projects</description>
+  <display-name>riosdevida-ejb-ear</display-name>
+  <module>
+    <ejb>uk.riosdevida-riosdevida-ejb-17-1.0.1.jar</ejb>
+  </module>
+  <library-directory>lib</library-directory>
+</application>

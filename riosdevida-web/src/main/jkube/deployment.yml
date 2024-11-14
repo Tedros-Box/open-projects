@@ -1,0 +1,55 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    jkube.io/scm-url: https://xxx/xxx/riosdevida-web
+    jkube.io/issue-system: Redmine
+    jkube.io/issue-tracker-url: https://redmine.fic.udc.es/project/riosdevida-web/issues
+    jkube.io/scm-tag: head
+  labels:
+    app: riosdevida-web
+    provider: jkube
+    version: 17-1.0.1
+    group: uk.riosdevida
+  name: riosdevida-web
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: riosdevida-web
+      provider: jkube
+      group: uk.riosdevida
+  template:
+    metadata:
+      annotations:
+        jkube.io/scm-url: https://xxx/xxx/riosdevida-web
+        jkube.io/issue-system: Redmine
+        jkube.io/issue-tracker-url: https://redmine.fic.udc.es/project/riosdevida-web/issues
+        jkube.io/scm-tag: head
+      labels:
+        app: riosdevida-web
+        provider: jkube
+        version: 17-1.0.1
+        group: uk.riosdevida
+    spec:
+      containers:
+      - env:
+        - name: KUBERNETES_NAMESPACE
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.namespace
+        - name: HOSTNAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        image: xxx:5050/xxx/riosdevida-web:latest
+        imagePullPolicy: Always
+        name: deploy-riosdevida-web
+        securityContext:
+          privileged: false
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+        - name: xxx

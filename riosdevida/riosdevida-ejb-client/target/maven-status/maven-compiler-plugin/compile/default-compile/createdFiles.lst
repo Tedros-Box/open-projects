@@ -1,0 +1,7 @@
+uk\riosdevida\ejb\controller\IWebLanguageController.class
+uk\riosdevida\ejb\controller\IWebMainPageController.class
+uk\riosdevida\ejb\controller\IWebContentController.class
+uk\riosdevida\ejb\controller\IElementPageController.class
+uk\riosdevida\ejb\controller\IMainPageController.class
+uk\riosdevida\ejb\controller\ILanguageController.class
+uk\riosdevida\ejb\controller\IWebElementPageController.class

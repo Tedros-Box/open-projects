@@ -1,0 +1,11 @@
+uk\riosdevida\domain\DomainApp.class
+uk\riosdevida\domain\DomainTables.class
+uk\riosdevida\entity\ContentType.class
+uk\riosdevida\entity\WebContentItem.class
+uk\riosdevida\entity\ElementType.class
+uk\riosdevida\entity\WebMainPage.class
+uk\riosdevida\entity\WebElementPage.class
+uk\riosdevida\domain\DomainSchema.class
+uk\riosdevida\entity\WebRegion.class
+uk\riosdevida\entity\WebContent.class
+uk\riosdevida\entity\WebLanguage.class
